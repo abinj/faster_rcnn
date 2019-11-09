@@ -158,6 +158,7 @@ fabric.properties
 
 # virtualenv
 .venv/
+venv2/
 venv/
 ENV/
 

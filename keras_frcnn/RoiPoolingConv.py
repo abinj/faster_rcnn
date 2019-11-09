@@ -2,7 +2,7 @@ from keras.engine.topology import Layer
 import keras.backend as K
 
 if K.backend() == 'tensorflow':
-    import tensorflow.compat.v1 as tf
+    import tensorflow as tf
 
 class RoiPoolingConv(Layer):
     '''ROI pooling layer for 2D inputs.
