@@ -6,7 +6,7 @@ data = pd.DataFrame()
 data['format'] = train['image_names']
 
 for i in range(data.shape[0]):
-    data['format'][i] = '/home/abin/my_works/github_works/faster_rcnn/datasets/image_sets/train/' + data['format'][i]
+    data['format'][i] = '/home/abinmj656/faster_rcnn/datasets/image_sets/train/' + data['format'][i]
 
 for i in range(data.shape[0]):
     data['format'][i] = data['format'][i] + ',' + str(train['xmin'][i]) + ',' + str(train['ymin'][i]) + ',' + \
